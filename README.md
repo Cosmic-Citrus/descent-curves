@@ -1,6 +1,6 @@
 # Repo:    descent-curves
 
-The purpose of this code is to explore descent curves. with special attention focused on the properties of the [brachistochrone]([Brachistochrone curve - Wikipedia](https://en.wikipedia.org/wiki/Brachistochrone_curve)).
+The purpose of this code is to explore descent curves. with special attention focused on the properties of the [brachistochrone](Brachistochrone curve - Wikipedia(https://en.wikipedia.org/wiki/Brachistochrone_curve)).
 
 ## Description
 
@@ -30,7 +30,7 @@ $ds = \sqrt{dx^2 + dy^2} = \sqrt{dx^2 (1 + (\frac{dy}{dx}^2)} = \sqrt{1 + (\frac
 
     $\implies f(y, y^\prime) = \frac{\sqrt{1 + (y^\prime)^2}}{\sqrt{y-y_0}}$
 
-The integrand $f(y, y^\prime)$ is independent of $x$, which satisfies the requirements of the [Beltrami Identity]([Beltrami identity - Wikipedia](https://en.wikipedia.org/wiki/Beltrami_identity)):
+The integrand $f(y, y^\prime)$ is independent of $x$, which satisfies the requirements of the [Beltrami Identity](Beltrami identity - Wikipedia(https://en.wikipedia.org/wiki/Beltrami_identity)):
 
 $f - y^\prime\frac{df}{dy^\prime} = k \equiv constant$
 

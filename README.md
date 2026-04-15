@@ -82,9 +82,9 @@ $\implies dx = \sqrt{\frac{k sin^2\phi}{k - k sin^2\phi}} 2k sin\phi cos\phi d\p
 
 $\implies x = \int dx = k \int (1 - cos(2\phi)) d\phi = \frac{k}{2} (2\phi - sin(2\phi)) + c_x$
 
-The parametric form of the brachistochrone equations can be obtained by substituting $c_x = x_i$, $r=\frac{k}{2}$ and $\theta = 2\phi$:
+The parametric form of the brachistochrone equations can be obtained by substituting $c_x = x_0$, $r=\frac{k}{2}$ and $\theta = 2\phi$:
 
-$\implies x - x_i = r(\theta - sin\theta)$
+$\implies x - x_0 = r(\theta - sin\theta)$
 
 $\implies y-y_0 = 2r sin^2(\frac{\theta}{2}) = r(1 - cos\theta)$
 

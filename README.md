@@ -20,7 +20,7 @@ $\implies$ $v=\sqrt{2g(y-y_0)}$
 
 To avoid ambiguity of variables, let $y^\prime = \frac{dy}{dx}$. The Pythagorean theorem $c^2 = a^2 + b^2$ can be reformulated in terms of differential lengths that apply to any geodesic curve of differential arc-length $ds$. Using $v=\frac{ds}{dt}$, we can re-arrange terms to solve for $t$:
 
-$ds = \sqrt{dx^2 + dy^2} = \sqrt{dx^2 (1 + (\frac{dy}{dx})^2} = \sqrt{1 + (\frac{dy}{dx})^2} dx$
+$ds = \sqrt{dx^2 + dy^2} = \sqrt{dx^2 (1 + (\frac{dy}{dx})^2)} = \sqrt{1 + (\frac{dy}{dx})^2} dx$
 
 $\implies \frac{ds}{dx} = \sqrt{1 + (\frac{dy}{dx})^2}$
 

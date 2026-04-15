@@ -120,6 +120,7 @@ This parametric form satisifies the conditions of the [cycloid](https://en.wikip
 ## To-Do
 
 - Use `sympy` to solve the differential equations
+- Explore tautochrone properties
 - Animate the rolling circle that generates the cycloid curve
 - Re-create brachistochrone curves using hypercomplex numbers (Hurwitz quaternions)
 - Explore Louville theorem and symplectic phase-space in higher dimensions

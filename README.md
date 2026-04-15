@@ -48,7 +48,7 @@ $\implies$ $\frac{df}{d{y^\prime}} = \frac{y^\prime}{\sqrt{(y-y_0)(1+(y^\prime)^
 
 $\implies 2(y-y_0)\frac{d^2y}{dx^2} + 1 + (\frac{dy}{dx})^2 = 0$
 
-The [reduction of oder method](https://en.wikipedia.org/wiki/Reduction_of_order) can be used to simplify this second-order differential equation into a first-order differential equation that satisfies the Beltrami Identity.
+This second-order differential equation can be simplified into a first-order differential equation that satisfies the Beltrami Identity.
 
 $p = \frac{dy}{dx}$
 

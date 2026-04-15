@@ -1,6 +1,6 @@
 # Repo:    descent-curves
 
-The purpose of this code is to explore descent curves. with special attention focused on the properties of the [brachistochrone](Brachistochrone curve - Wikipedia(https://en.wikipedia.org/wiki/Brachistochrone_curve)).
+The purpose of this code is to explore descent curves. with special attention focused on the properties of the [brachistochrone](https://en.wikipedia.org/wiki/Brachistochrone_curve).
 
 ## Description
 
@@ -54,7 +54,7 @@ $p = \frac{dy}{dx}$
 
 $\implies p^\prime = \frac{d^2y}{dx^2}$
 
-$\implies $ $2(y-y_0)pp^\prime = -(1+p^2)$
+$\implies 2(y-y_0)pp^\prime = -(1+p^2)$
 
 $\implies \frac{2p}{1+p^2}dp = -\frac{dy}{y-y_0}$
 

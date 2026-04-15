@@ -12,7 +12,7 @@ A particle at rest necessarily has velocity $v=0 \frac{m}{s}$; at point $A$, the
 
 $\mathcal{H_{t=0}} = \mathcal{H_{t}}$
 
-    $\implies$ $U_{t=0} + T_{t=0}$ = $U_t + T_t$
+$\implies$ $U_{t=0} + T_{t=0}$ = $U_t + T_t$
 
     $\implies$ $mg(y-y_0) = \frac{1}{2}mv^2$
 

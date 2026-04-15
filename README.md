@@ -14,21 +14,21 @@ $\mathcal{H_{t=0}} = \mathcal{H_{t}}$
 
 $\implies$ $U_{t=0} + T_{t=0}$ = $U_t + T_t$
 
-    $\implies$ $mg(y-y_0) = \frac{1}{2}mv^2$
+$\implies$ $mg(y-y_0) = \frac{1}{2}mv^2$
 
-    $\implies$ $v=\sqrt{2g(y-y_0)}$
+$\implies$ $v=\sqrt{2g(y-y_0)}$
 
 To avoid ambiguity of variables, let $y^\prime = \frac{dy}{dx}$. Pythagorean Theorem $c^2 = a^2 + b^2$ can be reformulated in terms of differential lengths that apply to any geodesic curve of differential arc-length $ds$. Using $v=\frac{ds}{dt}$, we can re-arrange terms to solve for $t$:
 
 $ds = \sqrt{dx^2 + dy^2} = \sqrt{dx^2 (1 + (\frac{dy}{dx}^2)} = \sqrt{1 + (\frac{dy}{dx})^2} dx$
 
-    $\implies \frac{ds}{dx} = \sqrt{1 + (\frac{dy}{dx})^2}$
+$\implies \frac{ds}{dx} = \sqrt{1 + (\frac{dy}{dx})^2}$
 
-    $\implies dt = \frac{ds}{v} = \frac{\sqrt{1 + (\frac{dy}{dx})^2}}{\sqrt{2g(y-y_0)}} dx$
+$\implies dt = \frac{ds}{v} = \frac{\sqrt{1 + (\frac{dy}{dx})^2}}{\sqrt{2g(y-y_0)}} dx$
 
-    $\implies t = \int_{t_0}^{t_1} dt = \int_{x_0}^{x_1} \frac{\sqrt{1 + (\frac{dy}{dx})^2}}{\sqrt{2g(y-y_0)}} dx = \frac{1}{\sqrt{2g}} \int_{x_0}^{x_1} \frac{\sqrt{1 + (\frac{dy}{dx}^2)}}{\sqrt{y-y_0}} dx$
+$\implies t = \int_{t_0}^{t_1} dt = \int_{x_0}^{x_1} \frac{\sqrt{1 + (\frac{dy}{dx})^2}}{\sqrt{2g(y-y_0)}} dx = \frac{1}{\sqrt{2g}} \int_{x_0}^{x_1} \frac{\sqrt{1 + (\frac{dy}{dx}^2)}}{\sqrt{y-y_0}} dx$
 
-    $\implies f(y, y^\prime) = \frac{\sqrt{1 + (y^\prime)^2}}{\sqrt{y-y_0}}$
+$\implies f(y, y^\prime) = \frac{\sqrt{1 + (y^\prime)^2}}{\sqrt{y-y_0}}$
 
 The integrand $f(y, y^\prime)$ is independent of $x$, which satisfies the requirements of the [Beltrami Identity](Beltrami identity - Wikipedia(https://en.wikipedia.org/wiki/Beltrami_identity)):
 
@@ -42,51 +42,51 @@ $\frac{d\mathcal{L}}{dq} = \frac{d}{dt} \frac{d\mathcal{L}}{d\dot{q}} \iff \frac
 
 In this [variational calculus]([Calculus of variations - Wikipedia](https://en.wikipedia.org/wiki/Calculus_of_variations)) problem, the Lagrangian is given by $\mathcal{L} = T - U = \frac{1}{2}mv^2 - mg(y-y_0)$.
 
-    $\implies$ $\frac{df}{dy} = -\frac{\sqrt{1 + (y^\prime)^2}}{2(y-y_0)^\frac{3}{2}}$
+$\implies$ $\frac{df}{dy} = -\frac{\sqrt{1 + (y^\prime)^2}}{2(y-y_0)^\frac{3}{2}}$
 
-    $\implies$ $\frac{df}{d{y^\prime}} = \frac{y^\prime}{\sqrt{(y-y_0)(1+(y^\prime)^2)}}$
+$\implies$ $\frac{df}{d{y^\prime}} = \frac{y^\prime}{\sqrt{(y-y_0)(1+(y^\prime)^2)}}$
 
-    $\implies 2(y-y_0)\frac{d^2y}{dx^2} + 1 + (\frac{dy}{dx})^2 = 0$
+$\implies 2(y-y_0)\frac{d^2y}{dx^2} + 1 + (\frac{dy}{dx})^2 = 0$
 
 The [reduction of oder method]([Reduction of order - Wikipedia](https://en.wikipedia.org/wiki/Reduction_of_order)) can be used to simplify this second-order differential equation into a first-order differential equation that satisfies the Beltrami Identity.
 
-    $p = \frac{dy}{dx}$
+$p = \frac{dy}{dx}$
 
-    $\implies p^\prime = \frac{d^2y}{dx^2}$
+$\implies p^\prime = \frac{d^2y}{dx^2}$
 
-    $\implies $ $2(y-y_0)pp^\prime = -(1+p^2)$
+$\implies $ $2(y-y_0)pp^\prime = -(1+p^2)$
 
-    $\implies \frac{2p}{1+p^2}dp = -\frac{dy}{y-y_0}$
+$\implies \frac{2p}{1+p^2}dp = -\frac{dy}{y-y_0}$
 
-    $\implies \int \frac{2p}{1+p^2}dp = \int -\frac{dy}{y-y_0}$
+$\implies \int \frac{2p}{1+p^2}dp = \int -\frac{dy}{y-y_0}$
 
-    $\implies ln(1+p^2) = -ln(y-y_0) + ln(k)$
+$\implies ln(1+p^2) = -ln(y-y_0) + ln(k)$
 
-    $\implies (1+p^2) = \frac{k}{y-y_0}$
+$\implies (1+p^2) = \frac{k}{y-y_0}$
 
-    $\implies y^\prime = \sqrt{\frac{k-(y-y_0)}{y-y_0}}$
+$\implies y^\prime = \sqrt{\frac{k-(y-y_0)}{y-y_0}}$
 
-    $\implies k = f(y, y^\prime)$
+$\implies k = f(y, y^\prime)$
 
 This first-order differential equation can be solved using the [separation of variables method]([Separation of variables - Wikipedia](https://en.wikipedia.org/wiki/Separation_of_variables)):
 
 $\frac{dy}{dx} = \sqrt{\frac{k-(y-y_0)}{y-y_0}}$
 
-    $\implies dx = \frac{dy}{\sqrt{\frac{k - (y-y_0)}{y-y_0}}} = \sqrt{\frac{y-y_0}{k - (y - y_0)}} dy$
+$\implies dx = \frac{dy}{\sqrt{\frac{k - (y-y_0)}{y-y_0}}} = \sqrt{\frac{y-y_0}{k - (y - y_0)}} dy$
 
 By trigonometric substitution, let $y-y_0 = k sin^2\phi = \frac{k}{2} (1-cos(2\phi))$
 
-    $\implies dy = 2k sin\phi cos\phi d\phi = k sin(2\phi) d\phi$
+$\implies dy = 2k sin\phi cos\phi d\phi = k sin(2\phi) d\phi$
 
-    $\implies dx = \sqrt{\frac{k sin^2\phi}{k - k sin^2\phi}} 2k sin\phi cos\phi d\phi = 2k sin^2\phi d\phi = k(1 - cos(2\phi)) d\phi$
+$\implies dx = \sqrt{\frac{k sin^2\phi}{k - k sin^2\phi}} 2k sin\phi cos\phi d\phi = 2k sin^2\phi d\phi = k(1 - cos(2\phi)) d\phi$
 
-    $\implies x = \int dx = k \int (1 - cos(2\phi)) d\phi = \frac{k}{2} (2\phi - sin(2\phi)) + c_x$
+$\implies x = \int dx = k \int (1 - cos(2\phi)) d\phi = \frac{k}{2} (2\phi - sin(2\phi)) + c_x$
 
 The parametric form of the brachistochrone equations can be obtained by substituting $c_x = x_i$, $r=\frac{k}{2}$ and $\theta = 2\phi$:
 
-    $\implies x - x_i = r(\theta - sin\theta)$
+$\implies x - x_i = r(\theta - sin\theta)$
 
-    $\implies y-y_0 = 2r sin^2(\frac{\theta}{2}) = r(1 - cos\theta)$
+$\implies y-y_0 = 2r sin^2(\frac{\theta}{2}) = r(1 - cos\theta)$
 
 This parametric form satisifies the conditions of the [cycloid]([Cycloid - Wikipedia](https://en.wikipedia.org/wiki/Cycloid)).
 

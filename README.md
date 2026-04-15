@@ -30,17 +30,17 @@ $\implies t = \int_{t_0}^{t_1} dt = \int_{x_0}^{x_1} \frac{\sqrt{1 + (\frac{dy}{
 
 $\implies f(y, y^\prime) = \frac{\sqrt{1 + (y^\prime)^2}}{\sqrt{y-y_0}}$
 
-The integrand $f(y, y^\prime)$ is independent of $x$, which satisfies the requirements of the [Beltrami Identity](Beltrami identity - Wikipedia(https://en.wikipedia.org/wiki/Beltrami_identity)):
+The integrand $f(y, y^\prime)$ is independent of $x$, which satisfies the requirements of the [Beltrami Identity](https://en.wikipedia.org/wiki/Beltrami_identity):
 
 $f - y^\prime\frac{df}{dy^\prime} = k \equiv constant$
 
 The Beltrami Identity simplifies the procedure of solving the integral equation $t = \int_{t_0}^{t_1}dt$. Rather than assuming the identity a priori, the Beltrami Identity can be derived more explicitly.
 
-The Lagrangian $\mathcal{L(q, \dot{q}, t)} \equiv \mathcal{L} = T - U$ can be used to quantify the action $S = \int_{0}^{t} \mathcal{L} dt$. The stationarity of the action $\delta S=0$ means that the [Euler-Lagrange equations]([Euler–Lagrange equation - Wikipedia](https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation)) can be used to find the critical point of action $S$. In generalized coordinates $q$ and $\dot{q}=\frac{dq}{dt}$, the Euler-Lagrange equations are given by:
+The Lagrangian $\mathcal{L(q, \dot{q}, t)} \equiv \mathcal{L} = T - U$ can be used to quantify the action $S = \int_{0}^{t} \mathcal{L} dt$. The stationarity of the action $\delta S=0$ means that the [Euler-Lagrange equations](https://en.wikipedia.org/wiki/Euler%E2%80%93Lagrange_equation) can be used to find the critical point of action $S$. In generalized coordinates $q$ and $\dot{q}=\frac{dq}{dt}$, the Euler-Lagrange equations are given by:
 
 $\frac{d\mathcal{L}}{dq} = \frac{d}{dt} \frac{d\mathcal{L}}{d\dot{q}} \iff \frac{df}{dy} = \frac{d}{dx} \frac{df}{d{y^\prime}}$
 
-In this [variational calculus]([Calculus of variations - Wikipedia](https://en.wikipedia.org/wiki/Calculus_of_variations)) problem, the Lagrangian is given by $\mathcal{L} = T - U = \frac{1}{2}mv^2 - mg(y-y_0)$.
+In this [variational calculus](https://en.wikipedia.org/wiki/Calculus_of_variations) problem, the Lagrangian is given by $\mathcal{L} = T - U = \frac{1}{2}mv^2 - mg(y-y_0)$.
 
 $\implies$ $\frac{df}{dy} = -\frac{\sqrt{1 + (y^\prime)^2}}{2(y-y_0)^\frac{3}{2}}$
 
@@ -48,7 +48,7 @@ $\implies$ $\frac{df}{d{y^\prime}} = \frac{y^\prime}{\sqrt{(y-y_0)(1+(y^\prime)^
 
 $\implies 2(y-y_0)\frac{d^2y}{dx^2} + 1 + (\frac{dy}{dx})^2 = 0$
 
-The [reduction of oder method]([Reduction of order - Wikipedia](https://en.wikipedia.org/wiki/Reduction_of_order)) can be used to simplify this second-order differential equation into a first-order differential equation that satisfies the Beltrami Identity.
+The [reduction of oder method](https://en.wikipedia.org/wiki/Reduction_of_order) can be used to simplify this second-order differential equation into a first-order differential equation that satisfies the Beltrami Identity.
 
 $p = \frac{dy}{dx}$
 
@@ -68,7 +68,7 @@ $\implies y^\prime = \sqrt{\frac{k-(y-y_0)}{y-y_0}}$
 
 $\implies k = f(y, y^\prime)$
 
-This first-order differential equation can be solved using the [separation of variables method]([Separation of variables - Wikipedia](https://en.wikipedia.org/wiki/Separation_of_variables)):
+This first-order differential equation can be solved using the [separation of variables method](https://en.wikipedia.org/wiki/Separation_of_variables):
 
 $\frac{dy}{dx} = \sqrt{\frac{k-(y-y_0)}{y-y_0}}$
 
@@ -88,7 +88,7 @@ $\implies x - x_i = r(\theta - sin\theta)$
 
 $\implies y-y_0 = 2r sin^2(\frac{\theta}{2}) = r(1 - cos\theta)$
 
-This parametric form satisifies the conditions of the [cycloid]([Cycloid - Wikipedia](https://en.wikipedia.org/wiki/Cycloid)).
+This parametric form satisifies the conditions of the [cycloid](https://en.wikipedia.org/wiki/Cycloid).
 
 ## Getting Started
 

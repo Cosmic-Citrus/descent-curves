@@ -7,6 +7,8 @@ The purpose of this code is to explore descent curves. with special attention fo
 Suppose a particle of mass $m$ starts at rest and is subject to downward-directed gravitational acceleration $g$ due to the force of gravity; this particle traverses some curve from $A(x_0, y_0)$ to $B(x_1, y_1)$ in time $t$. One can construct infinitely many curves from $A$ to $B$, but only one curve is the optimal curve that corresponds to the least travel time - this special curve is called the brachistochrone.
 
 
+![example-trajectory_comparison](output/example_01-trajectories/line-parabola-ellipse-exponential-cosine-brachistochrone-path.png)
+
 
 A particle at rest necessarily has velocity $v=0 \frac{m}{s}$. At point $A$, the potential energy $U$ of a particle at a given height $h$ along the curve above the ground is given by $U=mgh$ and the kinetic energy $T$ is $0$ $J$; at ground-level ($h=0$ $m$), the potential and kinetic energies are given. by $U=0$ $J$ and $T = \frac{1}{2}mv^2$. The total energy at time $t$ is given by $\mathcal{H_{t}} = T_t + U_t$. Letting $h=y - y_0$ and exploiting conservation of energy, one can solve for the velocity of the particle.
 

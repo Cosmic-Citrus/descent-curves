@@ -1,6 +1,6 @@
 # Repo:    descent-curves
 
-The purpose of this code is to explore descent curves. with special attention focused on the properties of the [brachistochrone](https://en.wikipedia.org/wiki/Brachistochrone_curve).
+The purpose of this code is to explore descent curves with special attention focused on the properties of the [brachistochrone](https://en.wikipedia.org/wiki/Brachistochrone_curve).
 
 ## Description
 

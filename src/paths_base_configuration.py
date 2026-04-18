@@ -375,7 +375,7 @@ class BaseAnalyticPathConfiguration(BasePathConfiguration):
 			)
 		return elapsed_duration
 
-	def get_x_of_tau(self, number_sample_positions=100):
+	def get_x_of_tau(self, number_sample_positions=1000):
 		x = np.linspace(
 			self.xi,
 			self.xf,

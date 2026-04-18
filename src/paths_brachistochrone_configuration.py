@@ -91,10 +91,10 @@ class AnalyticBrachistochronePathConfiguration(BaseAnalyticPathConfiguration):
 		if theta_interp > 1e-9:
 			dy_dx = -1 * np.sin(theta_interp) / (1 - np.cos(theta_interp))
 		else:
-			dy_dx = 1e-9
+			dy_dx = -1e-9
 		return dy_dx
 
-	def get_theta_of_tau(self, number_sample_positions=100):
+	def get_theta_of_tau(self, number_sample_positions=1000):
 		(theta_i, theta_f) = self.function_mapping["theta"]
 		theta = np.linspace(
 			theta_i,
@@ -118,7 +118,7 @@ class AnalyticBrachistochronePathConfiguration(BaseAnalyticPathConfiguration):
 		x = self.xi + r * (theta - np.sin(theta))
 		return x
 
-	def get_x_of_tau(self, number_sample_positions=100):
+	def get_x_of_tau(self, number_sample_positions=1000):
 		theta = self.get_theta_of_tau(
 			number_sample_positions=number_sample_positions)
 		x = self.get_x_of_theta(

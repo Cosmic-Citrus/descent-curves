@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from plotter_base_configuration import BasePlotterConfiguration
 
 
-class BaseDescentCurvesViewer(BasePlotterConfiguration):
+class BaseDescentCurvesViewerConfiguration(BasePlotterConfiguration):
 
 	def __init__(self):
 		super().__init__()
@@ -46,7 +46,7 @@ class BaseDescentCurvesViewer(BasePlotterConfiguration):
 			raise ValueError("not yet implemented")
 		return facecolors
 
-class DescentCurvesPlotFormatConfiguration(BaseDescentCurvesViewer):
+class DescentCurvesPlotFormatConfiguration(BaseDescentCurvesViewerConfiguration):
 
 	def __init__(self):
 		super().__init__()
@@ -190,7 +190,7 @@ class DescentCurvesPlotConfiguration(DescentCurvesPlotFormatConfiguration):
 			alpha=alpha)
 		return ax
 
-class DescentCurvesViewer(DescentCurvesPlotConfiguration):
+class DescentCurvesViewerConfiguration(DescentCurvesPlotConfiguration):
 
 	def __init__(self):
 		super().__init__()

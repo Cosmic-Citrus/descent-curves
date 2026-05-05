@@ -1,5 +1,5 @@
 import numpy as np
-from plotter_paths_configuration import DescentCurvesViewer
+from plotter_paths_configuration import DescentCurvesViewerConfiguration
 from paths_base_configuration import BasePathConfiguration
 from paths_linear_configuration import AnalyticLinearPathConfiguration
 from paths_parabolic_configuration import AnalyticParabolicPathConfiguration
@@ -125,7 +125,7 @@ class DescentCurvesConfiguration(BaseDescentCurvesConfiguration):
 			AnalyticBrachistochronePathConfiguration)
 
 	def view_path_trajectories(self, *args, **kwargs):
-		viewer = DescentCurvesViewer()
+		viewer = DescentCurvesViewerConfiguration()
 		viewer.initialize_visual_settings(
 			tick_size=self.visual_settings.tick_size,
 			label_size=self.visual_settings.label_size,
@@ -138,11 +138,5 @@ class DescentCurvesConfiguration(BaseDescentCurvesConfiguration):
 			self, # descent_curves,
 			*args,
 			**kwargs)
-
-
-
-
-
-
 
 ##
